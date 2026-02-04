@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DUI Defense Triangle | 24/7 Response & Immediate Consultation</title>
+    <meta name="description" content="DUI defense lawyers in Wake County. Immediate consultation, court representation, and license protection across the Triangle.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
+            color: white;
+            padding: 1rem 2rem;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .phone {
+            font-size: 1.3rem;
+            font-weight: 600;
+            background: #fbbf24;
+            color: #000;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        .availability-banner {
+            background: #fbbf24;
+            color: #000;
+            padding: 0.75rem 2rem;
+            text-align: center;
+            font-weight: 700;
+        }
+        .hero {
+            background: #7f1d1d;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .availability-section {
+            background: #fee2e2;
+            padding: 3rem 2rem;
+            margin: -3rem -2rem 3rem -2rem;
+        }
+        .availability-section h2 {
+            text-align: center;
+            color: #991b1b;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .availability-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .availability-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            border-top: 4px solid #7f1d1d;
+        }
+        .availability-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .availability-card h3 {
+            color: #991b1b;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        .availability-card .time {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #7f1d1d;
+            margin: 0.75rem 0;
+        }
+        .availability-card p {
+            color: #666;
+            line-height: 1.7;
+        }
+        .services-section {
+            margin: 3rem 0;
+        }
+        .services-section h2 {
+            color: #991b1b;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .service-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 3px solid #7f1d1d;
+        }
+        .service-card h3 {
+            color: #991b1b;
+            margin-bottom: 0.75rem;
+        }
+        .service-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .urgent-section {
+            background: #fef3c7;
+            border-left: 4px solid #fbbf24;
+            padding: 2rem;
+            border-radius: 4px;
+            margin: 3rem 0;
+        }
+        .urgent-section h3 {
+            color: #92400e;
+            margin-bottom: 1rem;
+        }
+        .urgent-section p {
+            color: #78350f;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+        .form-section {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            max-width: 700px;
+            margin: 3rem auto;
+        }
+        .form-section h2 {
+            color: #991b1b;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .form-section .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #7f1d1d;
+        }
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .submit-btn {
+            background: linear-gradient(135deg, #991b1b 0%, #7f1d1d 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            opacity: 0.95;
+        }
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">DUI Defense Triangle</div>
+            <div class="phone">📞 (919) 635-9141</div>
+        </div>
+    </header>
+
+    <div class="availability-banner">
+        ⚡ 24/7 Availability • Immediate Consultation • DMV Hearing Representation
+    </div>
+
+    <section class="hero">
+        <h1>24/7 Response & Immediate Consultation</h1>
+        <p>Experienced DUI defense across Wake County. Protect your license and your future.</p>
+    </section>
+
+    <div class="container">
+        <section class="availability-section">
+            <h2>When You Can Reach Us</h2>
+            <div class="availability-grid">
+                <div class="availability-card">
+                    <div class="icon">📞</div>
+                    <h3>24/7 Phone Access</h3>
+                    <div class="time">Day or Night</div>
+                    <p>Call anytime, including weekends and holidays. Arrested at 2am? We answer.</p>
+                </div>
+
+                <div class="availability-card">
+                    <div class="icon">⚖️</div>
+                    <h3>Immediate Consultation</h3>
+                    <div class="time">Same Day</div>
+                    <p>Meet with attorney quickly. Discuss your case, options, and next steps.</p>
+                </div>
+
+                <div class="availability-card">
+                    <div class="icon">📋</div>
+                    <h3>DMV Hearing</h3>
+                    <div class="time">10 Days</div>
+                    <p>You have 10 days to request DMV hearing. We handle it immediately to protect your license.</p>
+                </div>
+
+                <div class="availability-card">
+                    <div class="icon">🏛️</div>
+                    <h3>Court Appearance</h3>
+                    <div class="time">4-8 Weeks</div>
+                    <p>First court date typically 4-8 weeks after arrest. We prepare your defense thoroughly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h2>DUI Defense Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>DWI Defense</h3>
+                    <p>Defend against DWI charges. Challenge evidence and procedures.</p>
+                </div>
+                <div class="service-card">
+                    <h3>License Protection</h3>
+                    <p>Fight DMV suspension. Request hearings and represent you.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Breathalyzer Challenges</h3>
+                    <p>Question test accuracy, calibration, and administration.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Field Sobriety Tests</h3>
+                    <p>Challenge reliability and officer's conclusions.</p>
+                </div>
+                <div class="service-card">
+                    <h3>First Offense DUI</h3>
+                    <p>Minimize penalties for first-time offenders.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Multiple Offenses</h3>
+                    <p>Defend repeat DUI charges with serious consequences.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="urgent-section">
+            <h3>⏰ Time-Sensitive Actions</h3>
+            <p><strong>10-Day Rule:</strong> You have only 10 days from arrest to request a DMV hearing to fight license suspension. Miss this deadline and your license is automatically suspended.</p>
+            <p><strong>Act Immediately:</strong> Evidence disappears. Witness memories fade. Police dashcam footage gets overwritten. The sooner we start building your defense, the better your outcome.</p>
+            <p><strong>Don't Delay:</strong> Call now to protect your rights, your license, and your future.</p>
+        </div>
+
+        <section class="form-section">
+            <h2>Confidential Consultation</h2>
+            <p class="subtitle">Available 24/7 for DUI arrests</p>
+            
+            <form id="leadForm" action="https://hook.us2.make.com/gzcbxb8x2e5xph37kjhm48ur4khvh7ir" method="POST">
+                <input type="hidden" name="site_id" value="WAKE-DUILAW-001">
+                <input type="hidden" name="market" value="Wake County">
+                <input type="hidden" name="industry" value="DUI Lawyers">
+                <input type="hidden" name="lead_type" value="Service Request">
+                <input type="hidden" name="source_url" value="duidefensetriangle.com">
+                
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="arrest_date">Arrest Date (if applicable)</label>
+                    <input type="date" id="arrest_date" name="arrest_date">
+                </div>
+
+                <div class="form-group">
+                    <label for="charge_type">Type of Charge *</label>
+                    <select id="charge_type" name="charge_type" required>
+                        <option value="">Select...</option>
+                        <option value="DWI First Offense">DWI - First Offense</option>
+                        <option value="DWI Multiple">DWI - Multiple Offenses</option>
+                        <option value="Underage DUI">Underage DUI</option>
+                        <option value="Refused Test">Refused Breathalyzer</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Brief Description *</label>
+                    <textarea id="details" name="details" required placeholder="Tell us about your situation..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Request Consultation</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 DUI Defense Triangle. This is an advertisement. Consultation does not create an attorney-client relationship.</p>
+    </footer>
+
+    <script>
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            fetch(this.action, {
+                method: 'POST',
+                body: formData,
+                mode: 'no-cors'
+            }).then(() => {
+                window.location.href = 'thanks.html';
+            }).catch(() => {
+                window.location.href = 'thanks.html';
+            });
+        });
+    </script>
+</body>
+</html>
